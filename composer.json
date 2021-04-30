@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "illuminate/database": "6.10",
+        "sendgrid/sendgrid": "^7.4",
+        "vlucas/phpdotenv": "^4.1",
+        "google/recaptcha": "^1.2",
+        "drewm/mailchimp-api": "^2.5"
+    }
+
+}
